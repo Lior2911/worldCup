@@ -56,28 +56,28 @@ async function getCovid(){
     console.log(err);
   }
 }
-function printToList(){
-  getCovid().then((res)=>{
-    for(const key in res){
-      console.log(res['']);
-    }
-  }
-)
-}
-printToList()
+// function printToList(){
+//   getCovid().then((res)=>{
+//     for(const key in res){
+//       console.log(res['']);
+//     }
+//   }
+// )
+// }
+// printToList()
 
 
 
 
-const optionsB = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'a3cd827027msh0132ea0897450e5p1a2c87jsncbbc1fd35305',
-		'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
-	}
-};
+// const optionsB = {
+// 	method: 'GET',
+// 	headers: {
+// 		'X-RapidAPI-Key': 'a3cd827027msh0132ea0897450e5p1a2c87jsncbbc1fd35305',
+// 		'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
+// 	}
+// };
 
-fetch('https://covid-193.p.rapidapi.com/countries/', optionsB)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
+// fetch('https://covid-193.p.rapidapi.com/countries/', optionsB)
+// 	.then(response => response.json())
+// 	.then(response => console.log(response))
+// 	.catch(err => console.error(err));
