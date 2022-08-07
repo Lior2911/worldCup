@@ -19,8 +19,8 @@
     <title>Document</title>
   </head>
   <body class="">
-    <div class="container-fluid d-flex flex-column">
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid d-flex flex-column  bg-dark bg-opacity-25">
+      <nav class="navbar navbar-expand-md navbar-light  bg-dark bg-opacity-25">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">WorldCup</a>
           <button
@@ -34,10 +34,12 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/groups/groups.html">groups</a>
@@ -46,7 +48,9 @@
                 <a class="nav-link" href="./pages/agents/agents.html">Agents</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/statiums/stadium.html">stadiums</a>
+                <a class="nav-link" href="./pages/statiums/stadium.html"
+                  >stadiums</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/live/live.html">live</a>
@@ -55,6 +59,17 @@
           </div>
         </div>
       </nav>
+      <div
+        class="container-fluid row p-2 justify-content-center"
+        id="mainPhoto"
+      >
+        <div class="container">
+          <div
+            class="col-12 "
+            id="myTimer"
+          ></div>
+        </div>
+      </div>
       <div id="myCarusel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
@@ -149,88 +164,68 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-      <div
-        class="container-fluid row p-2 justify-content-center"
-        id="mainPhoto"
-      >
-        <div class="col-12 bg-success bg-opacity-25 bg-gradient" id="myTimer">
-       
-        </div>
-      </div>
-
+      
     </div>
     <div class="container-fluid  mt-2 mb-2" id="mainBox">
-      <div class="container">
-         <div class="col-12 g-1">
-        <h3>latest</h3>
-        <div class="row">
-          <div
-            class="col-6 border border-dark bg-success bg-opacity-25 bg-gradient"
-          >
-          <div class="col d-flex">
-            
-            <p class="">
+        
+        <div class=" d-flex justify-content-between " id="paragOne"><img class="image-fluid h-50" src="images/loading_gif.jpg" id="loadGif" alt=""></div>
+         
           
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
-                dignissimos aliquid quibusdam quod debitis eaque at labore
-                veritatis non error saepe, voluptatum eos aperiam veniam,
-            
-              </p>
-              <img class="col-6
-              " src="images/groups.png" alt="">
-            </div>
-            <div class="col"></div>
-          </div>
-          <div
-            class="col-6 border border-dark bg-success bg-opacity-25 bg-gradient"
-          >
-            article2
-          </div>
-        </div>
-        <div class="col-12 g-1 mt-2">
-          <h3>news</h3>
-          <div class="row bg-success bg-opacity-25">
-            <div
-              class="col-6 border border-dark bg-success bg-opacity-25 bg-gradient"
-            >
-              article3
-            </div>
-            <div
-              class="col-6 border border-dark bg-success bg-opacity-25 bg-gradient"
-            >
-              article4
-            </div>
-          </div>
-        </div>
-        <div class="col-12 mt-2">
-          <div class="row bg-success bg-opacity-25 border border-dark"><h3>Qatar</h3></div>
-        </div>
-        <div class="col-12 mt-2">
-          <div class="row bg-success bg-opacity-25 border border-dark">
-            <h3>Covid-19 status</h3>
-          </div>
-        </div>
-        <div class="col-12 mt-2">
-          <div class="row bg-success bg-opacity-25 border border-dark">
-            <h3>contact one of our Agents</h3>
-          </div>
-        </div>
-      </div>
-      </div>
+          
+          
+        
      
     </div>
-    <div class="container" >
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex  align-items-center">
           <span class="text-muted">© 2022 WorldCup, Inc</span>
         </div>
-    
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/lior.aytegev"><img src="images/social_media/facebook-3-32.png" class="img-fluid" alt=""></a></li>
-          <li class="ms-3"><a class="text-muted" href="https://github.com/Lior2911"><img src="images/social_media/github-10-32.png" class="img-fluid" alt=""></a></li>
-          <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/lior-aytegev-703a60235/"><img src="images/social_media/linkedin-32.png" class="img-fluid" alt=""></a></li>
-          <li class="ms-3"><a class="text-muted" href="mailto:aytegev1@gmail.com"><img src="images/social_media/mail-32.png" class="img-fluid" alt=""></a></li>
-          <li class="ms-3"><a class="text-muted" href="telto:0523278300"><img src="images/social_media/phone-46-32.png" class="img-fluid" alt=""></a></li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://www.facebook.com/lior.aytegev"
+              ><img
+                src="images/social_media/facebook-3-32.png"
+                class="img-fluid"
+                alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://github.com/Lior2911"
+              ><img
+                src="images/social_media/github-10-32.png"
+                class="img-fluid"
+                alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.linkedin.com/in/lior-aytegev-703a60235/"
+              ><img
+                src="images/social_media/linkedin-32.png"
+                class="img-fluid"
+                alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="mailto:aytegev1@gmail.com"
+              ><img
+                src="images/social_media/mail-32.png"
+                class="img-fluid"
+                alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="telto:0523278300"
+              ><img
+                src="images/social_media/phone-46-32.png"
+                class="img-fluid"
+                alt=""
+            /></a>
+          </li>
         </ul>
       </footer>
     </div>
@@ -238,4 +233,3 @@
     <script src="pages/main/article.js"></script>
   </body>
 </html>
-

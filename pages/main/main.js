@@ -9,9 +9,10 @@ const timer = setInterval(function () {
   let minutes = Math.floor((timeRemeins % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((timeRemeins % (1000 * 60)) / 1000);
 
-  myTimer.innerHTML = `<div class = 'w-100 justify-content-center'><h3 class='dispaly-5'>countdown until turnumante start in :</h3></div><br>
-  <div class='border border-1 display-4 p-2 mb-2 '>
-  days: ${days}| hrs: ${hours}| min: ${minutes}| sec:${seconds}
+  myTimer.innerHTML = `
+  <div class=' display-4 p-2 bg-info bg-opacity-25 fst-italic justify-content-center '>
+  <h3 class='fst-italic justify-content-center'>tournument start in :</h3>
+  days: ${days} | hrs: ${hours} | min: ${minutes} | sec:${seconds}
   </div>`;
 
   if (timeRemeins < 0) {
