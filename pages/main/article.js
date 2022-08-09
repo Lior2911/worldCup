@@ -25,7 +25,7 @@ const covidInfo = document.getElementById("paragOne")
 			<div class='col'>
 			<img
 		src="images/covid.jpg"
-		class="img-fluid h-50"
+		class="img-fluid h-50 w-50"
 		alt=""/>
 		<div class='p-2 w-75'> - Based on COVID-19 epidemiology  in different countries and their local health risk indicators, Qatar has developed specific health and safety measures for travelers coming to Qatar – Standard Health Measures and Red Health Measures.
 		<br> check below Covid-19's status who update daily.
